@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+/* 1. запомнить и вывести числа 
+   2. вывести тройки чисел 
+   3. вывести сумма троек 
+   4. вывести сумму которая не делится на 4 
+*/
 
 int main() {
 	cout << "hello world";
