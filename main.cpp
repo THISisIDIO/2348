@@ -8,10 +8,16 @@ using namespace std;
 
 int main() {
 	int n(0);
+	int c[4] = {0,0,0,0};
 	int cur_num(0);
 	cin >> n ;
 	for(int i(0);i<n;i++)
-	    cin >> cur_num;
+	    {
+	    	cin >> cur_num;
+	    	c[cur_num%4] ++;
+		}
+	cout << c[0] << " "<<c[1] <<" " <<c[2] << " "<< c[3] ;
+	    
 
 	return 0;
 }
