@@ -16,8 +16,10 @@ int main() {
 	    	cin >> cur_num;
 	    	c[cur_num%4] ++;
 		}
-	cout << c[0] << " "<<c[1] <<" " <<c[2] << " "<< c[3] ;
+	cout  <<0.5*c[0]*(c[0]-1)*c[1]  <<endl;
+	cout  <<(c[3]*(c[3]-1)*(c[3]-2)) /6<<endl;
 	    
 
 	return 0;
 }
+
