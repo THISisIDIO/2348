@@ -1,8 +1,12 @@
 #include <iostream>
 using namespace std;
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+/* 1. запомнить числа 
+   2. вычислить кол-во чисел делящийся на 4 с остатком (0,1,2,3)
+   3. вычислить кол-во комбинаций(001,002,003,012,011,023,033,113,111,122,123,133,222,223,233,333)
+   4. вывести сумму количеств комбинаций
+*/
 
 int main() {
-	cout << "hello world";
+
 	return 0;
 }
