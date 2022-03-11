@@ -2,9 +2,10 @@
 #include <vector>
 using namespace std;
 /* 1. + запомнить и вывести числа 
-   2. вывести тройки чисел 
+   2. + вывести тройки чисел 
    3. вывести сумма троек 
    4. вывести сумму которая не делится на 4 
+   5. вывести их кол-во
 */
 
 int main() {
@@ -16,7 +17,7 @@ int main() {
 	for (int i(0);i<n;i++)
 	for (int j(i+1);j<n;j++)
 	for (int l(j+1);l<n;l++)
-	    cout << numbers[i] << " " << numbers[j] << " " << numbers[l] << endl ;	
+	    cout << numbers[i] + numbers[j] + numbers[l] << endl ;	
 	    
 
 	return 0;
